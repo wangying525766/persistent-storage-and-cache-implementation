@@ -42,7 +42,7 @@ if (cursor!= None):
     for res in cursor:
         print "NOTE get getResult:", pickle.loads(Binary(res['value-data'][0]))
 else:
-    print "hehe"  
+    print "not get result"  
 '''
 #db.foo.insert({'key-data': "1455", 'value-data':"345"})
 #db.foo.save(test)
