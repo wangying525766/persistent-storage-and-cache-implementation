@@ -394,7 +394,7 @@ class Memory(LoggingMixIn, Operations):
 
     def chmod(self, path, mode):
         global count
-        count +=1
+        count += 1
         print ("CallCount {} " " Time {}".format(count,datetime.datetime.now().time()))
         print('In function chmod()')
 
